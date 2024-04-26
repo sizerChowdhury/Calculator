@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void addition(int num1, int num2){
+    cout<<"Sum of "<< a <<" "<< b <<" = "<<a+b<<endl;
+    return ;
+}
+
 
 int main(){
     int num1,num2;
