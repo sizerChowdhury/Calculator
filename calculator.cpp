@@ -6,6 +6,19 @@ void multiplication (int num1, int num2)
    cout<<"multiplication:"<<num1*num2<<endl;
 }
 
+void addition(int num1, int num2){
+    cout<<"Sum of "<< a <<" "<< b <<" = "<<a+b<<endl;
+    return ;
+}
+
+int substract(int number1, int number2){
+    return (number1 - number2);
+}
+int division(int num1,int num2){
+    print(num1/num2);
+}
+
+
 
 int main(){
     int num1,num2;
