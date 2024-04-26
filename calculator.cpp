@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int multiplication (int num1, int num2)
+void multiplication (int num1, int num2)
 {
-    return num1*num2;
+   cout<<"multiplication:"<<num1*num2<<endl;
 }
 
 
