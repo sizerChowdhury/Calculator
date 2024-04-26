@@ -11,9 +11,10 @@ void addition(int num1, int num2){
     return ;
 }
 
-int substract(int number1, int number2){
-    return (number1 - number2);
+void substract(int number1, int number2){
+    cout << "Substraction of " << number1 << " and " << number2 << " is = " << number1 - number2 << '\n';
 }
+
 int division(int num1,int num2){
     print(num1/num2);
 }
@@ -40,7 +41,7 @@ int main(){
             break;
         }
         case('-'){
-            subsitutioin(num1,num2);
+            substract(num1,num2);
             break;
         }
         case('*'){
