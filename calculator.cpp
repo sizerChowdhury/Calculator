@@ -167,8 +167,22 @@ void print(int num1, int num2, int operation)
 
 void addition(int num1, int num2)
 {
-    cout << "Sum of " << a << " " << b << " = " << a + b << endl;
-    return;
+    print(num1,num2,1);
+}
+
+void subsitutioin(int num1, int num2)
+{
+    print(num1,num2,2);
+}
+
+void multiplication(int num1, int num2)
+{
+    print(num1,num2,3);
+}
+
+void division(int num1, int num2)
+{
+    print(num1,num2,4);
 }
 
 int main()
