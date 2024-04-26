@@ -3,21 +3,23 @@ using namespace std;
 
 void multiplication (int num1, int num2)
 {
-   cout<<"multiplication:"<<num1*num2<<endl;
+   cout<<num1 << " * " <<num2<<" = "<<num1*num2<<endl;
+   return ;
 }
 
 void addition(int num1, int num2){
-    cout<<"Sum of "<< a <<" "<< b <<" = "<<a+b<<endl;
+    cout<<num1 << " + " <<num2<<" = "<<num1+num2<<endl;
     return ;
 }
 
 void substract(int number1, int number2){
-    cout << "Substraction of " << number1 << " and " << number2 << " is = " << number1 - number2 << '\n';
+    cout<<num1 << " - " <<num2<<" = "<<num1-num2<<endl;
+    return ;
 }
 
 void division(int num1,int num2){
-     cout<<num1/num2<<endl; 
-
+     cout<<num1 << " / " <<num2<<" = "<<num1/num2<<endl;
+     return ;
 }
 
 
@@ -55,8 +57,6 @@ int main(){
         }
         default:
             cout<<"Invalid operation"<<endl;
-
     }
     return 0;
-
 } 
