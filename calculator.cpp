@@ -15,8 +15,9 @@ void substract(int number1, int number2){
     cout << "Substraction of " << number1 << " and " << number2 << " is = " << number1 - number2 << '\n';
 }
 
-int division(int num1,int num2){
-    print(num1/num2);
+void division(int num1,int num2){
+     cout<<num1/num2<<endl; 
+
 }
 
 
