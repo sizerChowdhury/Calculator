@@ -11,11 +11,12 @@ void addition(int num1, int num2){
     return ;
 }
 
-int substract(int number1, int number2){
+void substract(int number1, int number2){
     return (number1 - number2);
 }
-int division(int num1,int num2){
-    print(num1/num2);
+
+void division(int num1,int num2){
+     cout<<num1/num2<<endl; 
 }
 
 
