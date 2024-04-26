@@ -3,7 +3,7 @@ using namespace std;
 
 void multiplication (int num1, int num2)
 {
-   cout<<"multiplication:"<<num1*num2<<endl;
+   print(num1,num2,3);
 }
 
 
