@@ -4,6 +4,11 @@ using namespace std;
 int substract(int number1, int number2){
     return (number1 - number2);
 }
+int division(int num1,int num2){
+    print(num1/num2);
+}
+
+
 
 int main(){
     int num1,num2;
